@@ -1,8 +1,8 @@
 module.exports = {
     name: 'avatar',
-    aliases: ['icon', 'pfp', 'profilepic'],
-    permissions: ["ADMINISTRATOR"],
-    description: 'Return a user(s) avatar picture!',
+    aliases: [],
+    permissions: [],
+    description: 'avatar command',
     
     execute(client, message, args) {
 
@@ -10,10 +10,10 @@ module.exports = {
             return message.channel.send(`**Your Avatar: ** ${message.author.displayAvatarURL({ dynamic: true })}`);
         }
 
-        const avatar_list = message.mentions.users.map(user => {
+        const user_avatar = message.mentions.users.map(user => {
             return `**${user.username}'s Avatar: ** ${user.displayAvatarURL({ dynamic: true })}`;
         });
 
-        message.channel.send(avatar_list);
+        message.channel.send(user_avatar);
     }
 }
