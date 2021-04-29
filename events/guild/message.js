@@ -1,5 +1,5 @@
 module.exports = (Discord, client, message) => {
-    const prefix = '>';
+    const prefix = '';
     if(!message.content.startsWith(prefix) || message.author.bot) return;
 
     const args = message.content.slice(prefix.length).split(/ +/);
@@ -53,7 +53,7 @@ module.exports = (Discord, client, message) => {
           }
         }
         if (invalidPerms.length){
-          return message.channel.send('You dont have permissions to do that');
+          return message.channel.send('You dont have permissions to run this command');
         }
       }
 
