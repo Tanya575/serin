@@ -1,5 +1,5 @@
 module.exports = (Discord, client) =>{
-    console.log('Tanya is online!');
+    console.log('online');
 
 
     client.user.setActivity('put here the bot Activity', { type: 'and here the type like playing' })
