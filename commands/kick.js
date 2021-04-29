@@ -1,16 +1,16 @@
 module.exports = {
     name: 'kick',
-    aliases: ['k', 'طرد'],
-    permissions: ["ADMINISTRATOR", "KICK_MEMBERS"],
-    description: "this command kicks a member!",
+    aliases: [],
+    permissions: [],
+    description: "kick command",
     execute(client, message, args){
         const member = message.mentions.users.first();
         if(member){
-            const memberTarger = message.guild.members.cache.get(member.id);
-            memberTarger.kick();
+            const Targer = message.guild.members.cache.get(member.id);
+            Targer.kick();
             message.channel.send("user has been kicked");
         }else{
-            message.channel.send('<:idk:822217580567592991> I can t find this member');
+            message.channel.send('make sure to mention a user after the command');
         }
     }
 }
