@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-require('dotenv').config(); // you need to install this package npm i dotenv
+require('dotenv').config(); // install this package npm i dotenv (not required) 
 const client = new Discord.Client({ partials: [ "MESSAGE", "CHANNEL", "REACTION" ]});
 
 
@@ -11,5 +11,5 @@ client.events = new Discord.Collection();
     require(`./handlers/${handler}`)(client, Discord);
 })
 
-
+// you can do this if you installed the package or you can just use ("bot token here")
 client.login(process.env.DISCORD_TOKEN);
