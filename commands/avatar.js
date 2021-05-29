@@ -1,6 +1,6 @@
 module.exports = {
     name: 'avatar',
-    aliases: [],
+    aliases: ['icon'],
     permissions: [],
     description: 'avatar command',
     
