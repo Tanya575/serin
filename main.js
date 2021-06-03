@@ -7,8 +7,8 @@ client.commands = new Discord.Collection();
 client.events = new Discord.Collection();
 
 
-['command_handler', 'event_handler'].forEach(handler => {
-    require(`./handlers/${handler}`)(client, Discord);
+['command_handler', 'event_handler'].forEach(h => {
+    require(`./handlers/${h}`)(client, Discord);
 })
 
 // you can do this if you installed the package or you can just use ("bot token here")
