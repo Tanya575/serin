@@ -53,7 +53,7 @@ module.exports = (Discord, client, message) => {
           }
         }
         if (invalidPerms.length){
-          return message.channel.send('You dont have permissions to run this command');
+          return
         }
       }
 
