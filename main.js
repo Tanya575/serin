@@ -1,5 +1,5 @@
 const Discord = require('discord.js'); 
-require('dotenv').config(); // install this package npm i dotenv (not required) 
+require('dotenv').config();
 const client = new Discord.Client({ partials: [ "MESSAGE", "CHANNEL", "REACTION" ]});
 
 
