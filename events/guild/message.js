@@ -7,7 +7,7 @@ module.exports = (Discord, client, message) => {
 
     const command = client.commands.get(cmd) || client.commands.find(a => a.aliases && a.aliases.includes(cmd));
 
-
+    if (!command) return
     const validPermissions = [
         "CREATE_INSTANT_INVITE",
         "KICK_MEMBERS",
