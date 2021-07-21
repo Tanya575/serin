@@ -1,0 +1,894 @@
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+
+ :root {
+    --text-white: rgb(255, 255, 255);
+
+    --header-primary: var(--text-white);
+
+    --interactive-hover: var(--text-white);
+
+    --interactive-active: var(--text-white);
+
+    --header-secondary: rgb(191, 188, 188);
+
+    --background-modifier-accent: transparent !important;
+
+    --text-muted: rgb(202, 212, 229);
+
+    --text-link: rgb(61, 111, 217);
+
+    --text-positive: rgb(108, 176, 83);
+
+    --text-positive-opacity: rgba(98, 255, 67, var(--opacity));
+
+    --interactive-muted: rgb(74, 74, 74);
+
+     --guild-header-text-shadow: none;  
+
+    --bg-default: rgba(var(--background-color), var(--opacity));
+
+    --background-accent: var(--bg-default);
+
+    --background-primary: var(--bg-default);
+
+    --background-secondary: var(--bg-default);
+
+    --background-secondary-alt: var(--bg-default);
+
+    --background-tertiary: var(--bg-default);
+
+    --background-floating: var(--bg-default);
+
+    --scrollbar-auto-thumb: var(--bg-default);
+
+    --bg-light: rgba(var(--background-color), var(--light-opacity));
+
+    --background-mentioned: var(--bg-light);
+
+    --scrollbar-auto-track: var(--bg-light);
+
+    --bg-dark: rgba(var(--background-color), var(--dark-opacity));
+
+    --notification-color: 103, 67, 222;
+
+    --notification: rgb(var(--notification-color));
+
+    --notification-opacity: rgba(var(--notification-color), var(--dark-opacity));
+
+    --line-width: 1.2px;
+
+    --line-color: rgb(135, 139, 215);
+    
+    --interactive-normal: var(--text-white); 
+}   
+
+.theme-dark {
+   
+    --light-opacity: 0.2;
+   
+    --opacity: 0.4;
+  
+    --dark-opacity: 0.75;
+
+    --background-color: 0, 0, 0;
+    /* glass effect */
+}
+
+.app-2rEoOp>.bg-h5JY_x {
+    background: url('https://i.imgur.com/RG03PyX.jpg') !important;
+    background-size: cover !important;
+    /* main background */
+}
+
+.option-96V44q {  
+    background-color: var(--bg-dark) !important;
+    background: transparent;
+    /* searchbar options */
+} 
+
+.circleIconButton-1QV--U.selected-1JjBPm 
+{ 
+    background-color: transparent;
+}
+
+ .folderIconWrapper-1_bOZe 
+ {
+    background-color: transparent!important;
+    /* folders background */
+}
+
+.circleIconButton-1QV--U 
+{ 
+    background-color: var(--bg-dark);
+}
+
+.input-2VB9rf 
+{ 
+    background-color: var(--bg-light);
+    transition: 0.30s ease;
+    /* dm searchbar */
+}
+.jumpButton-3DTcS_,
+.button-11zvza 
+{ 
+    background-color: var(--bg-light);
+    color: transparent;
+    transition: 0.20s ease;
+    /* jump button */
+}
+
+.option-96V44q.selected-rZcOL- 
+{ 
+    background-color: transparent !important;   
+}
+
+.option-96V44q:after 
+{ 
+    display: none;
+}
+
+
+.container-3ayLPN 
+{
+    background-color: var(--bg-dark) !important;
+    background: var(--bg-dark);
+}
+.titleBar-AC4pGV > *:nth-child(2) 
+{
+    transition: 0.4s;
+} 
+.titleBar-AC4pGV > *:nth-child(3) 
+{
+    transition: 0.4s;
+} 
+.titleBar-AC4pGV > *:nth-child(4) 
+{
+    transition: 0.4s;
+}
+
+.theme-dark .perksModal-fSYqOq 
+{ 
+    background-color: var(--bg-dark);
+    /* server boost  */
+}
+
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx 
+{ 
+    background-color: transparent !important;
+}
+
+.emojiAliasInput-1y-NBz .emojiInput-1aLNse 
+{ 
+    background-color: transparent !important;
+    color: transparent;
+    /* emoji name */
+}
+
+.emojiAliasInput-1y-NBz:hover 
+{
+background-color: transparent;
+}
+.emojiAliasInput-1y-NBz 
+{ 
+    background-color: transparent !important;
+}
+
+.cardWrapper-2Min21 
+{ 
+    background-color: transparent;
+    /* server boost card */
+}
+
+.perksModal-fSYqOq 
+{
+    background-color: var(--bg-dark) !important;
+}
+
+.searchBox-3Y2Vi7 
+{ 
+    background: radial-gradient(circle, rgb(83, 80, 151) 0%, rgb(74, 77, 122) 100%) !important;
+    border: none !important;
+    border-radius: 0.8rem !important;
+    /* discover searchbar */
+}
+
+.circleIconButton-1QV--U:hover 
+{
+    background-color: var(--bg-light);
+    /* add server & discover button */
+}
+
+
+
+.pageWrapper-1PgVDX 
+{ 
+    background-color: var(--bg-dark) !important;
+}
+
+.headerImage-3X1tyY 
+{ 
+    display: none;
+    /*discover banner*/
+}
+
+.winButton-iRh8-Z 
+{
+    position: absolute;
+    top: 2px;
+    /* button */
+}
+
+.privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarComponent-32dTOx 
+{ 
+    background-color: transparent;
+    color: var(--text-white);
+    /*dm searchbar*/
+}
+
+.colorHeaderSecondary-3Sp3Ft 
+{ 
+    color: rgba(var(--text-white), 0.85);  
+}
+
+.templatesList-2E6rTe .container-UC8Ug1,
+.optionsList-3UMAjx .container-UC8Ug1 
+{ 
+    /*templates*/
+    background-color: rgb(171, 185, 200) !important;
+    border-color: transparent;
+   
+}
+
+.option-3KoAJB 
+{ 
+    background-color: var(--bg-dark) !important;
+}
+
+.container-3baos1 .button-14-BFJ 
+{ 
+    color: rgb(166, 185, 212);
+    filter: opacity(0.9);
+    transition: 0.30s ease;
+    /* mute & deafen & settings color */
+}
+
+.container-3baos1 .button-14-BFJ:hover 
+{ 
+    background-color: var(--bg-dark);
+    color: rgb(166, 185, 212);
+}
+
+.button-1-5Aqk 
+{ 
+    background-color: var(--bg-light);
+    transition: 0.15s ease;
+}
+
+.jumpButton-2dvRSC 
+{ 
+    background-color: var(--bg-light);
+    color: transparent;
+    transition: 0.20s ease;
+    /* jump button */
+}
+
+.topSectionSpotify-1lI0-P {
+    background-color: var(--text-positive-opacity) !important;
+}
+
+.profileBanner-33-uE1 
+{
+    opacity: var(--opacity);
+}
+
+.wordmarkWindows-1v0lYD>* 
+{
+    display: none;
+    /* discord name */
+}
+
+.actionButton-3W1xZa 
+{
+    background-color: transparent !important;
+    border: 2px solid var(--text-positive);
+    border-radius: 1rem;
+    color: var(--text-white) !important;
+    /* add friend button */
+}
+
+.item-1tOPte:hover, 
+.focused-3afm-j 
+{
+    background-color: var(--bg-default) !important;
+}
+
+.backdrop-1wrmKB 
+{
+    background-color: var(--bg-dark) !important;
+}
+
+.focusLock-Ns3yie>*, 
+.flex-1xMQg5 
+{
+    background-color: var(--bg-dark) !important;
+}
+
+
+
+ .imageDetails-1t6Zms 
+{
+    background-color: transparent !important;
+    /* image details */
+} 
+
+.searchBar-3dMhjb 
+{ 
+    background-color: var(--bg-light) !important;
+   
+}
+
+.guildsSection-3AvK09 
+{ 
+    border-color: transparent;
+    /*server boost*/
+}
+
+.footer-2gL1pp, .container-OI6I9q 
+{
+    justify-content: space-around !important;
+}
+
+ .changeButton-278ZT6 
+ {
+    background-color: var(--bg-default) !important;
+} 
+
+.base-3dtUhz, .sidebar-2K8pFh 
+{
+    border-radius: 0 !important;
+    padding-right: 0rem !important;
+    border-radius: 0 !important;
+}
+
+.wrapper-3NnKdC 
+{
+    padding: 0px;
+}
+
+.uploadModal-2ifh8j 
+{
+    background-color: var(--bg-default) !important;
+}
+
+.winButton-iRh8-Z:nth-child(2)
+{
+    right: .5rem !important;
+    height: 25px;
+    /* esc button */
+}
+
+
+
+.modal-2VIBV8>* 
+{
+    background-color: var(--bg-default) !important;
+}
+
+
+
+.winButton-iRh8-Z:nth-child(3) 
+{
+    right: 2.5rem !important;
+    height: 25px;
+}
+
+
+
+.winButton-iRh8-Z:nth-child(3):hover {
+    background-color: var(--bg-default);
+}
+
+.winButton-iRh8-Z:nth-child(4) 
+{
+    right: 4.5rem !important;
+    height: 25px;
+    
+}
+
+.role-1P70N6 
+{ 
+    background-color: var(--bg-dark);
+} 
+
+.role-1P70N6:hover 
+{
+    background-color: var(--bg-light);
+}
+.winButton-iRh8-Z:nth-child(4):hover 
+{
+    background-color: var(--bg-default);    
+}
+
+ .flex-1xMQg5.root-SR8cQa, .topSectionPlaying-1J5E4n
+{
+    background-color: var(--bg-light) !important;
+} 
+
+bd-codeblock-language, .bd-codeblock-table>*>* 
+{
+    border: none !important;
+}
+
+.uploadModal-2ifh8j>.inner-3nWsbo 
+{
+    background-color: transparent !important;
+}
+
+.animatorTop-2Y7x2r 
+{
+    background-color: var(--bg-dark) !important;
+    border-radius: 1.5rem !important;
+    /* add roles  */
+}
+
+
+.noWrap-3jynv6 
+{
+    background-color: transparent !important;
+}
+
+/* ADD ROLES LIST BORDER */
+
+.animatorTop-2Y7x2r>* 
+{
+    border: none !important;
+    border-radius: 1rem !important;
+}
+
+
+.autocompleteInner-zh20B_, .base-1pYU8j:hover 
+{
+    background-color: var(--bg-dark) !important;
+}
+
+
+
+.divider-3_HH5L, 
+.separator-2I32lJ, 
+.game-1ipmAa, 
+.divider-3573oO, 
+.hoverablePayment-Yc6mK7, 
+.paymentRow-2e7VM6, 
+.container-6sXIoE, 
+.container-1giJp5 
+{
+    border-color: rgb(154, 155, 228) !important;
+    border-image: var(--line-color) 1 !important;
+    border-image: none !important;
+    /* connections */
+}
+
+
+
+.separator-gCa7yv 
+{
+    background: var(--line-color) !important;
+    background: rgb(154, 155, 228) !important;
+    /* settings */
+}
+
+
+
+.game-1ipmAa 
+{
+    box-shadow: none !important;
+    border-bottom: solid 1px;
+}
+
+
+
+.card-3Qj_Yx 
+{
+    background-color: var(--bg-light) !important;
+    border: none !important;
+}
+
+
+
+.hoverablePayment-Yc6mK7, .verticalFit-waKLYN>*, .paymentRow-2e7VM6 {
+    background-color: transparent !important;
+}
+
+
+
+.expandedInfo-3kfShd 
+{
+    background-color: var(--bg-default) !important;
+}
+
+
+
+.description-HxwDO4 
+{
+    color: var(--text-white) !important;
+}
+
+.connectedAccount-36nQx7 
+{
+    border: none;
+}
+
+
+
+.root-3-B5F3.flex-1O1GKY 
+{
+    justify-content: center;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+
+
+.role-2irmRk 
+{
+    border: solid 11px;
+    padding: 0 !important;
+    background-color: var(--bg-dark) !important;
+}
+
+
+.layer-3QrUeG, 
+.layers-3iHuyZ, 
+.contentRegion-3nDuYy, 
+.contentRegionScroller-26nc1e, 
+.sidebarRegion-VFTUkN>* 
+{
+    background-color: transparent !important;
+}
+
+.header-2RyJ0Y {
+    color: var(--text-muted);
+    font-size: medium;
+}
+
+.notDetected-33MY4s {
+    background-color: transparent !important;
+}
+
+.gameNameInput-385LoS:focus, .gameNameInput-385LoS:hover {
+    background-color: var(--bg-default) !important;
+    border-color: var(--bg-default) !important;
+}
+
+.game-1ipmAa:hover::before, 
+.game-1ipmAa::before, 
+.card-FDVird.active-nvdKfC:before, 
+.card-FDVird:focus-within:before, 
+.card-FDVird:hover:before 
+{
+    background-color: transparent !important;
+    border: none !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.h5-18_1nd 
+{
+    color: var(--text-muted) !important;
+}
+
+.selected-3s45Ha, .premiumTabItem-1QTfBr[aria-selected=true] {
+    background-color: var(--bg-default) !important;
+}
+
+.replyBar-1YLQ2F {
+    background-color: transparent !important;
+}
+
+.premiumTabItem-1QTfBr>*>* 
+{
+    fill: rgb(255, 255, 255) !important;
+}
+
+.item-PXvHYJ:hover 
+{
+    background-color: var(--bg-light) !important;
+}
+
+.layers-3iHuyZ 
+{
+    border-radius: 1rem;
+} 
+
+ .app-2rEoOp 
+{
+    padding: 0.3rem !important;
+}
+
+.userPopout-3XzG_A 
+{
+    background-color: var(--bg-dark) !important;
+    /* profile card */
+} 
+
+ .animatorLeft-1EQxU0>.userPopout-3XzG_A 
+{
+    background-color: transparent !important;
+} 
+
+ .headerTop-2cWpdB 
+{
+    background: none !important;
+} 
+
+.input-cIJ7To 
+{
+    padding: calc(2px + var(--line-width)) !important;
+}
+
+.input-cIJ7To.focused-1mmYsC, 
+.input-cIJ7To:focus 
+{
+    box-sizing: border-box;
+    border-width: var(--line-width);
+    border-style: solid;
+    border-image: var(--line-color) 1;
+    padding: 2px !important;
+}
+
+.subText-V8PTt8 
+{
+    text-align: center;
+    color: var(--text-muted);
+    /* payment text */
+}
+
+.content-1o0f9g 
+{
+    margin-bottom: 1rem;
+    background: none !important;
+    color: var(--text-white);
+}
+
+.mentioned-xhSam7:hover 
+{
+    background-color: var(--bg-default) !important;
+    /* mention */
+}
+
+.menu-3sdvDG 
+{
+    background-color: var(--bg-dark) !important;
+    
+}
+
+.timestampInline-yHQ6fX 
+{
+    color: var(--text-white) !important;
+    opacity: 0.8;
+}
+
+.channelTextArea-rNsIhG>*:not(.bf-toolbar), 
+.content-3YMskv 
+{
+    background-color: transparent !important;
+    /* member list & textarea */
+} 
+
+.channelTextArea-rNsIhG 
+{
+    border-radius: 1rem !important;
+}
+
+.messagesWrapper-1sRNjr 
+{
+    margin-bottom: 8px;
+}
+
+.bd-button:hover 
+{
+    background-color: var(--bg-dark) !important;
+    /* BD button */
+}
+
+.formattedSize-2PXVec 
+{
+    color: var(--header-secondary) !important;
+    padding-left: .3rem;
+}
+
+.bf-hover:before 
+{
+    background-color: var(--bg-default) !important;
+    color: transparent !important;
+}
+
+.placeholder-37qJjk 
+{
+    color: var(--header-secondary) !important;
+}
+
+pre .hljs, .scrollableContainer-2NUZem, 
+.container-1D34oG 
+{
+    background-color: var(--bg-default) !important;
+}
+
+.headerBarContainer-31FKNA, 
+.libraryHeader-3g95kE, 
+.headerBar-1YYOfi 
+{
+    background-color: var(--bg-dark) !important;
+}
+
+.applicationStore-1pNvnv, 
+.nowPlayingColumn-2sl4cE>*, 
+.nowPlayingColumn-2sl4cE, 
+.stickyHeader-1pqx0j, 
+.scroller-1JbKMe, 
+.wrapper-1-Fsb8 
+{
+    background-color: transparent !important;
+}
+
+.scroller-3vODG7 
+{
+    background-color: white !important;
+}
+
+.itemCard-v9viV7 
+{
+    border: none;
+}
+
+#app-mount .container-3auIfb, #app-mount .bd-switch-body {
+  background: var(--bg-dark) !important;
+}
+
+.form-2fGMdU::before 
+{
+    display: none;
+}
+
+.bodyTitle-Y0qMQz 
+{
+    text-align: center;
+}
+
+.role-2irmRk:hover>.roleCircle-3xAZ1j 
+{
+    background-color: transparent !important;
+}
+
+.itemCard-v9viV7:hover 
+{
+    background-color: var(--bg-dark) !important;
+}
+
+.body-1ld4H7 
+{
+    background-color: transparent !important;
+}
+
+.border-3dQmSY.speaking-WDn8Wm 
+{
+    box-shadow: none !important;
+    padding: 1rem;
+    border-width: 3px;
+    border-style: solid;
+    border-image: var(--line-color) 1;
+}
+
+.tile-2w4k5N>*>.flex-1xMQg5>*:hover 
+{
+    box-shadow: none !important;
+    box-sizing: border-box;
+    border-width: 3px;
+    border-style: solid;
+    border-image: var(--line-color) 1;
+}
+
+.tile-2gi3tr, .content-2Sfaij>.flex-1xMQg5, 
+.inner-2O5YO7>.root-2VTZPJ.tile-2naSqK 
+{
+    background-color: var(--bg-light) !important;
+}
+
+.noChat-18KtBD.video--KPXCT, .video--KPXCT 
+{
+    background-color: var(--bg-default) !important;
+}
+
+.outerButton-1CWJC->* 
+{
+    background-color: var(--bg-light);
+}
+
+.outerButton-1CWJC->*:hover 
+{
+    background-color: var(--bg-dark);
+}
+
+.videoWrapper-2v09vt {
+    background-color: transparent !important;
+}
+
+.gradientTop-3UWg3T, .gradientBottom-3X4SdK 
+{
+    box-shadow: none !important;
+    background: none !important;
+}
+
+.callContainer-36WRfH>.root-217Brm>*>* 
+{
+    box-shadow: none !important;
+}
+
+.selected-1Tbx07 
+{
+    background-color: var(--bg-dark) !important;
+}
+
+.membershipDialog-rVL-t_ 
+{
+    background-color: var(--bg-light) !important;
+    border-radius: 1rem;
+}
+
+.membershipDialogSwitchHousesAction-2a3eDg 
+{
+    color: var(--text-link);
+}
+
+.membershipDialogSwitchHousesAction-2a3eDg:hover
+{
+    color: var(--text-link);
+    text-decoration: underline;
+}
+
+.numberBadge-2s8kKX, 
+.bar-30k2ka 
+{
+    background-color: var(--notification-opacity) !important;
+    opacity: 1;
+}
+
+.bar-30k2ka:hover 
+{
+    background-color: var(--notification) !important;
+    opacity: 1;
+}
+
+.childWrapper-anI2G9
+{
+    background-color: transparent !important;
+}
+
+.childWrapper-anI2G9:hover 
+{
+    background-color: var(--bg-default) !important;
+}
+
+.message-2qnXI6:hover 
+{
+    background-color: var(--bg-light) !important;
+}
+
+.wrapper-1F5TKx 
+{
+    background-color: var(--bg-default) !important;
+    color: var(--bg-default) !important;
+    border-radius: 10px;
+    margin: .2rem !important;
+}
+
+.bd-button 
+{
+    background-color: var(--bg-default) !important;
+}
+
+ .theme-dark .channelTextArea-2VhZ6z .sprite-2iCowe 
+{
+    filter: none !important;
+} 
+
